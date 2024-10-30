@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.contenedor_principal {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.contenedor_texto {
+    max-width: 25%;
+    text-align: justify;
+    margin: auto;
+}
+
+.contenedor_texto h1 {
+    font-size: 42px;
+    color: black;
+}
+
+.contenedor_texto h2 {
+    font-size: 21px;
+    color: darkblue;
+}
+
+.contenedor_texto p {
+    font-size: 19px;
+}
+
+.contenedor_flechas {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.contenedor_flechas a {
+    display: inline-block;
+    border: 2px black solid;
+    background-color: yellow;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.contenedor_carrousel {
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.slide {
+    min-width: 33%;
+}
+
+.personas h2 {
+    font-size: 21px;
+    color: black;
+}
+
+.personas p {
+    font-size: 19px;
+    color: #333;
+}
+
+.personas_texto {
+    margin-top: 10px;
+}
